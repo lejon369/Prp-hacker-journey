@@ -1,1 +1,33 @@
+ Burp Suite কী?
+Burp Suite হলো একটা proxy tool যা দিয়ে তুই ব্রাউজার আর সার্ভার-এর মাঝখানের সব data sniff করতে পারবি, modify করতে পারবি, এবং exploit খুঁজে বের করতে পারবি।
+
+    ✨ Login form ফাঁকি দেওয়া,
+    ✨ Hidden API বের করা,
+    ✨ XSS / SQLi test করা — সব হয় এর মাধ্যমে।
+
+
+🛠️ Step-by-Step: Burp Suite Installation (Windows/Linux)
+✅ For Windows:
+
+    Download Burp Suite Community Edition:
+    🔗 https://portswigger.net/burp/communitydownload
+
+    Install & Open Burp
+    Launch Firefox or Chrome
+
+    Go to browser proxy settings
+    → Set Manual Proxy:
+        IP: 127.0.0.1
+        Port: 8080
+    In Burp → Go to Proxy > Intercept > On
+    Visit any website → You’ll see Burp capturing request
+
+
+🎉 তুই এখন sniff করতে পারিস any HTTP request — login, cookies, data, etc.
+✅ Mini Practice:
+
+    তুই একটা demo website খুঁজে বের কর — http://testphp.vulnweb.com
+    Burp দিয়ে ফর্ম সাবমিট কর
+    Intercept করে চেক কর কিভাবে data server-এ যাচ্ছে
+
 
