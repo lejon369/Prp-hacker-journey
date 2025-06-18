@@ -1,1 +1,23 @@
+ What is SQL Injection?
 
+    SQL Injection (SQLi) is when a hacker inserts evil code into an input field (like a login box) that tricks the database into doing something it's not supposed to do — like giving access without a         password.
+
+💣 Example:
+   Let’s say a normal login system does this:
+
+ sql:SELECT * FROM users WHERE username = 'lejon' AND password = '12345';
+
+
+Now, imagine the attacker types this in the username field:
+bash: ' OR '1'='1
+
+
+The SQL becomes:  SELECT * FROM users WHERE username = '' OR '1'='1' AND password = '';
+
+
+ Real Life Attack:
+Used in breaches like the Sony Pictures hack, Heartland Payment Systems, and more.
+
+
+🧠 Fun Fact:
+SQLi was #1 in OWASP Top 10 Vulnerabilities for years. Even big companies screw this up.
