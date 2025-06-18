@@ -1,2 +1,13 @@
-# Prp-hacker-journey
-This repo contains form zero to world class hacker.Include note CTF chalanges,sqli,recursion,burpsuit testing,&amp; more. stay danguras
+# Pro Hacker Journey
+
+This repository documents my journey to becoming a world-class hacker.
+
+## 🔥 Skills Covered
+- SQL Injection
+- C Programming (Pointers, Arrays)
+- Recursion
+- Burp Suite Interception
+
+> Started on: June 18, 2025  
+> Mentor: ChatGPT 😈  
+> Status: Evolving. No plan to stop.
